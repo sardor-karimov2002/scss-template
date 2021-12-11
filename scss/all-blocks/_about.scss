@@ -1,0 +1,32 @@
+.about{
+    width: 673px;
+    height: 604px;
+    align-items: center;
+    &__child{
+        margin-right: auto;
+        border: 1px solid;
+        margin-left: -200px;
+        width: 500px;
+        height: 130px;
+        h3{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    &__child::before{
+        display: block;
+        position: absolute;
+        content: "";
+        background-image: url(./);
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 400px;
+        z-index: 1;
+    }
+}
