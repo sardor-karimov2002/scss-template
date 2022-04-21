@@ -9,7 +9,7 @@
 }
 body{
     font-family: sans-serif;
-    overflow: hidden;
+    // overflow: hidden;
 }
 .container{
     max-width: 1160px;
@@ -21,8 +21,7 @@ body{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    background-color: white;
-    box-shadow: 0 0 5px black;
+    // background-color: white;
     padding-bottom:var(--bottom-top-padding);
     padding-top:var(--bottom-top-padding);
     
